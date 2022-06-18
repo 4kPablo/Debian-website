@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    👉 Debe contener un navbar que navegue las diversas secciones de la web.
+    👉 Debe contener una portada alusiva a la temática de nuestra app.
+    👉 Una sección de imágenes.
+    👉 Una sección de contacto.
+    👉 Un footer.
+    👉 Una página para loguearse.
+    👉 Una página para registrarse.
+    👉 Ser responsive.
+    👉 Estar deployado en vercel.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/89d188d968.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Debian OS</title>
+</head>
+
+<body>
+    <div class="super-container1">
+
+
+        <!--Navbar-->
+
+        <nav class="nav-container">
+            <a href="index.html"><img class="nav-item" src="./logo-nav.gif" alt=""></a>
+            <ul class="nav-item">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Micronoticias</a></li>
+                <li><a href="#">Screenshots</a></li>
+                <li><a href="contribute.html">Contribuir</a></li>
+            </ul>
+        </nav>
+
+
+        <!--Hero-->
+
+        <div class="hero">
+            <div class="hero-left animate__animated animate__fadeInLeft">
+                <h1>Debian 11</h1>
+                <h2>La última versión del sistema operativo universal está acá. ¡Instálalo en tu computadora ahora
+                    mismo!
+                </h2>
+                <div class="hero-buttons">
+                    <a class="hero-descargar" href="#">Descargar</a>
+                    <a class="hero-instrucciones" href="#">Otras versiones</a>
+                </div>
+            </div>
+            <div class="hero-right animate__animated animate__fadeIn">
+                <img src="./logo-big.png" alt="" srcset="">
+            </div>
+        </div>
+
+
+        <!-- waves.svg -->
+
+        <object class="waves" data="./waves.svg"></object>
+
+    </div>
+
+    <div class="super-container2">
+
+        <!-- Qué es Debian -->
+
+        <div class="about">
+            <h2 class="about-title">¿Qué es Debian?</h2>
+            <p class="about-desc">Debian es un sistema operativo libre desarrollado por miles de voluntarios de todo el
+                mundo que colaboran
+                a través de Internet. Los puntos fuertes del proyecto Debian son su base de voluntarios, su dedicación
+                al contrato social de Debian y al software libre, y su compromiso por ofrecer el mejor sistema operativo
+                posible. Esta nueva versión es otro paso importante en esa dirección.</p>
+        </div>
+
+        <!-- Por qué Debian -->
+
+        <div class="centro">
+            <h2 class="centro-title">¿Por qué Debian?</h2>
+            <div class="card-container">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="card-item icon fa-brands fa-osi fa-4x"></i>
+                    <h3 class="card-item">Software libre</h3>
+                    <p class="card-item">
+                        Debian está hecho de software libre y de código abierto y siempre será 100% libre. Además, es
+                        gratuito.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="card-item icon fa-solid fa-shield fa-4x"></i>
+                    <h3 class="card-item">Estabilidad y seguridad</h3>
+                    <p class="card-item">
+                        Debian es un sistema operativo basado en Linux adecuado para un amplio rango de dispositivos.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="card-item icon fa-solid fa-microchip fa-4x"></i>
+                    <h3 class="card-item">Extenso soporte de hardware</h3>
+                    <p class="card-item">
+                        La mayoría del hardware ya está soportado por el núcleo Linux, lo que significa que está
+                        soportado en Debian también.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <i class="card-item icon fa-solid fa-users fa-4x"></i>
+                    <h3 class="card-item">El proyecto Debian es una comunidad</h3>
+                    <p class="card-item">
+                        Cualquiera puede ser parte de nuestra comunidad. Debian tiene una estructura de gobierno
+                        democrático.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

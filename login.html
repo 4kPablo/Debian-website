@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    👉 Debe contener un navbar que navegue las diversas secciones de la web. ☑️
+    👉 Debe contener una portada alusiva a la temática de nuestra app. ☑️
+    👉 Una sección de imágenes. ❓
+    👉 Una sección de contacto. ❓
+    👉 Un footer. ❓
+    👉 Una página para loguearse. ☑️
+    👉 Una página para registrarse. ☑️
+    👉 Ser responsive. ☑️
+    👉 Estar deployado en vercel. ❓
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/89d188d968.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Contribuir</title>
+</head>
+
+<body>
+    <div class="super-container__contribuir">
+
+        <!-- Navbar -->
+
+        <nav class="nav-container">
+            <a href="index.html"><img class="nav-item" src="./logo-nav.gif" alt=""></a>
+            <ul class="nav-item nav-hide">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Micronoticias</a></li>
+                <li><a href="#">Screenshots</a></li>
+                <li><a href="contribute.html">Contribuir</a></li>
+            </ul>
+            <i class="burger-menu fa-solid fa-bars"></i>
+        </nav>
+
+        <!-- Form -->
+
+        <form class="form">
+            <div class="form-left">
+                <h1>Contribuir</h1>
+                <p>
+                    El Proyecto Debian está formado por voluntarios, y nuestros productos los desarrollan por entero
+                    voluntarios. Generalmente buscamos nuevos contribuidores que tengan conocimientos técnicos e interés
+                    en el software libre, y algo de tiempo libre.
+                </p>
+
+                <p>
+                    Para contribuir activamente en el proyecto, se necesita una cuenta. Puede solicitar su registro de
+                    contribuidor en el formulario adyacente.
+                </p>
+                <p>
+                    <span>(Luego nos comunicaremos con usted para completar el registro)</span>
+                </p>
+            </div>
+            <div class="form-right">
+
+                <label for="email">
+                    Correo electrónico
+                </label>
+                <input class="form-input-text" id="email" type="email" placeholder="Email">
+
+                <label for="pass">
+                    Contraseña
+                </label>
+                <input class="form-input-text" id="pass" type="password" placeholder="Contraseña">
+                <div class="form-buttons">
+                    <input class="form-enviar" type="submit" value="Entrar">
+                    <a class="form-link" href="./contribute.html">¿No tiene cuenta?</a>
+                </div>
+            </div>
+        </form>
+
+        <!-- waves.svg -->
+
+        <object class="form-waves" data="./waves.svg"></object>
+
+    </div>
+
+</body>
+
+</html>
