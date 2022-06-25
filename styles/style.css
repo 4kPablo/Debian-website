@@ -365,6 +365,17 @@ body {
   border-radius: 0.5em;
 }
 
+@media only screen and (max-width: 640px) {
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.footer-waves {
+  width: 100%;
+}
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -415,16 +426,7 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
-  .footer-container {
-    background-color: var(--red);
-  }
   .footer-container a {
-    display: none;
-  }
-  .footer-container .footer-waves {
-    display: none;
-  }
-  .footer-container .footer-waves {
     display: none;
   }
 }
