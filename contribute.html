@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-    👉 Debe contener un navbar que navegue las diversas secciones de la web.
-    👉 Debe contener una portada alusiva a la temática de nuestra app.
-    👉 Una sección de imágenes.
-    👉 Una sección de contacto.
-    👉 Un footer.
-    👉 Una página para loguearse.
-    👉 Una página para registrarse.
-    👉 Ser responsive.
-    👉 Estar deployado en vercel.
--->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,13 +20,11 @@
 
         <nav class="nav-container">
             <a href="index.html"><img class="nav-item" src="./logo-nav.gif" alt=""></a>
-            <ul class="nav-item nav-hide">
-                <li><a href="#">Blog</a></li>
+            <ul class="nav-item">
                 <li><a href="#">Micronoticias</a></li>
-                <li><a href="#">Screenshots</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="contribute.html">Contribuir</a></li>
             </ul>
-            <i class="burger-menu fa-solid fa-bars"></i>
         </nav>
 
         <!-- Form -->
@@ -64,17 +50,45 @@
                 <label for="nombre">
                     Nombre completo
                 </label>
-                <input class="form-input-text" id="nombre" type="text" placeholder="Nombre">
+                <input class="form-input-text" id="nombre" type="text" placeholder="Nombre" required>
 
                 <label for="email">
                     Correo electrónico
                 </label>
-                <input class="form-input-text" id="email" type="email" placeholder="Email">
+                <input class="form-input-text" id="email" type="email" placeholder="Email" required>
 
                 <label for="github">
                     Cuenta de Github
                 </label>
-                <input class="form-input-text" id="github" type="url" placeholder="URL a perfil de Github">
+                <input class="form-input-text" id="github" type="url" placeholder="URL a perfil de Github" required>
+
+                <label>
+                    Género
+                </label>
+                <div class="radio-container">
+
+                    <input type="radio" name="genero" id="hombre" required>
+                    <label for="hombre">
+                        Hombre
+                    </label>
+                    <input type="radio" name="genero" id="mujer">
+                    <label for="mujer">
+                        Mujer
+                    </label>
+                    <input type="radio" name="genero" id="custom">
+                    <label for="custom">
+                        Otro
+                    </label>
+                </div>
+                <div class="radio-container">
+
+                    <input type="radio" name="terminos" id="aceptado" required>
+                    <label for="aceptado">
+                        Acepto los <a href="#">términos y condiciones</a>
+                    </label>
+                </div>
+
+
                 <div class="form-buttons">
                     <input class="form-enviar" type="submit" value="Solicitar registro">
                     <a class="form-link" href="./login.html">¿Ya es un contribuidor?</a>

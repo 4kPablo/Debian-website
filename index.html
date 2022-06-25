@@ -2,15 +2,15 @@
 <html lang="en">
 
 <!--
-    👉 Debe contener un navbar que navegue las diversas secciones de la web.
-    👉 Debe contener una portada alusiva a la temática de nuestra app.
-    👉 Una sección de imágenes.
-    👉 Una sección de contacto.
-    👉 Un footer.
-    👉 Una página para loguearse.
-    👉 Una página para registrarse.
-    👉 Ser responsive.
-    👉 Estar deployado en vercel.
+    👉 Debe contener un navbar que navegue las diversas secciones de la web. ☑️
+    👉 Debe contener una portada alusiva a la temática de nuestra app. ☑️
+    👉 Una sección de imágenes. ❓
+    👉 Una sección de contacto. ☑️
+    👉 Un footer. ❓
+    👉 Una página para loguearse. ☑️
+    👉 Una página para registrarse. ☑️
+    👉 Ser responsive. ☑️
+    👉 Estar deployado en vercel. ☑️
 -->
 
 <head>
@@ -28,19 +28,16 @@
 <body>
     <div class="super-container1">
 
-
         <!--Navbar-->
 
         <nav class="nav-container">
             <a href="index.html"><img class="nav-item" src="./logo-nav.gif" alt=""></a>
             <ul class="nav-item">
-                <li><a href="#">Blog</a></li>
                 <li><a href="#">Micronoticias</a></li>
-                <li><a href="#">Screenshots</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="contribute.html">Contribuir</a></li>
             </ul>
         </nav>
-
 
         <!--Hero-->
 
@@ -59,7 +56,6 @@
                 <img src="./logo-big.png" alt="" srcset="">
             </div>
         </div>
-
 
         <!-- waves.svg -->
 
@@ -88,7 +84,7 @@
 
                 <!-- Card 1 -->
                 <div class="card">
-                    <i class="card-item icon fa-brands fa-osi fa-4x"></i>
+                    <i class="card-item fa-brands fa-osi fa-4x"></i>
                     <h3 class="card-item">Software libre</h3>
                     <p class="card-item">
                         Debian está hecho de software libre y de código abierto y siempre será 100% libre. Además, es
@@ -98,7 +94,7 @@
 
                 <!-- Card 2 -->
                 <div class="card">
-                    <i class="card-item icon fa-solid fa-shield fa-4x"></i>
+                    <i class="card-item fa-solid fa-shield fa-4x"></i>
                     <h3 class="card-item">Estabilidad y seguridad</h3>
                     <p class="card-item">
                         Debian es un sistema operativo basado en Linux adecuado para un amplio rango de dispositivos.
@@ -107,7 +103,7 @@
 
                 <!-- Card 3 -->
                 <div class="card">
-                    <i class="card-item icon fa-solid fa-microchip fa-4x"></i>
+                    <i class="card-item fa-solid fa-microchip fa-4x"></i>
                     <h3 class="card-item">Extenso soporte de hardware</h3>
                     <p class="card-item">
                         La mayoría del hardware ya está soportado por el núcleo Linux, lo que significa que está
@@ -117,15 +113,118 @@
 
                 <!-- Card 4 -->
                 <div class="card">
-                    <i class="card-item icon fa-solid fa-users fa-4x"></i>
+                    <i class="card-item fa-solid fa-users fa-4x"></i>
                     <h3 class="card-item">El proyecto Debian es una comunidad</h3>
                     <p class="card-item">
                         Cualquiera puede ser parte de nuestra comunidad. Debian tiene una estructura de gobierno
                         democrático.
                     </p>
                 </div>
+
+                <!-- Card 5 -->
+                <div class="card">
+                    <i class="card-item fa-brands fa-ubuntu fa-4x"></i>
+                    <h3 class="card-item">Es la base de muchas otras distribuciones.</h3>
+                    <p class="card-item">
+                        El SO fácil de usar, Linux Mint; la distro de pentesting, Kali Linux y hasta Ubuntu usan a
+                        Debian como base fundamental.
+                    </p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card">
+                    <i class="card-item fa-solid fa-clock fa-4x"></i>
+                    <h3 class="card-item">Soporte a largo plazo.
+                    </h3>
+                    <p class="card-item">
+                        La versión LTS «Long Term Support» extiende la vida de todas las versiones estables
+                        de Debian a cinco años como mínimo.
+                    </p>
+                </div>
+
             </div>
         </div>
+
+        <h2 class="gallery-title">Screenshots</h2>
+        <div class="gallery">
+            <div>
+                <img src="https://i.redd.it/yg4vqgd9o4c81.png"
+                    onclick="window.open('https://i.redd.it/yg4vqgd9o4c81.png', '_blank');">
+            </div>
+            <div>
+                <img src="https://cldup.com/3nWN8C7PAG.png"
+                    onclick="window.open('https://cldup.com/3nWN8C7PAG.png', '_blank');">
+            </div>
+            <div>
+                <img src="https://www.linuxadictos.com/wp-content/uploads/Debian-11.2-1024x534.jpg.webp"
+                    onclick="window.open('https://www.linuxadictos.com/wp-content/uploads/Debian-11.2-1024x534.jpg.webp', '_blank');">
+            </div>
+            <div>
+                <img src="https://i0.wp.com/www.sysadminsdecuba.com/wp-content/uploads/2020/03/photo_2020-03-13_17-51-03.jpg?resize=678%2C381&ssl=1"
+                    onclick="window.open('https://i0.wp.com/www.sysadminsdecuba.com/wp-content/uploads/2020/03/photo_2020-03-13_17-51-03.jpg?resize=678%2C381&ssl=1', '_blank');">
+            </div>
+            <div>
+                <img src="https://pbs.twimg.com/media/FBOct2aXIAA5OTm?format=jpg&name=large"
+                    onclick="window.open('https://pbs.twimg.com/media/FBOct2aXIAA5OTm?format=jpg&name=large', '_blank');">
+            </div>
+            <div>
+                <img src="https://i.ytimg.com/vi/sHOvbvIXqSs/maxresdefault.jpg"
+                    onclick="window.open('https://i.ytimg.com/vi/sHOvbvIXqSs/maxresdefault.jpg', '_blank');">
+            </div>
+        </div>
+
+
+        <object class="waves footer-waves" data="./wave-footer.svg"></object>
+        <footer class="footer-container">
+            <!-- <div class="footer-column">
+                <a href="index.html"><img class="footer-item" src="./logo-vector.png" alt=""></a>
+            </div> -->
+            <div class="footer-column">
+                <ul class="footer-item">
+                    <li><a class="footer-first" href="#">Acerca de Debian</a></li>
+                    <li><a href="#">Contrato social</a></li>
+                    <li><a href="#">Código de conducta</a></li>
+                    <li><a href="#">Software libre</a></li>
+                    <li><a href="#">Socios</a></li>
+                    <li><a href="#">Donaciones</a></li>
+                    <li><a href="#">Información legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul class="footer-item">
+                    <li><a class="footer-first" href="#">Cómo obtener Debian</a></li>
+                    <li><a href="#">Instalación en red</a></li>
+                    <li><a href="#">Imágenes ISO de CD/USB</a></li>
+                    <li><a href="#">Vendedores de CDs</a></li>
+                    <li><a href="#">Preinstalado</a></li>
+                    <li><a href="#">Pure Blends</a></li>
+                    <li><a href="#">Paquetes Debian</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul class="footer-item">
+                    <li><a class="footer-first" href="#">Noticias</a></li>
+                    <li><a href="#">Noticias del proyecto</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Documentación</a></li>
+                    <li><a href="#">Info sobre versiones</a></li>
+                    <li><a href="#">Manual de instalación</a></li>
+                    <li><a href="#">Libros sobre Debian</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul class="footer-item">
+                    <li><a class="footer-first" href="#">Soporte</a></li>
+                    <li><a href="#">Debian es internacional</a></li>
+                    <li><a href="#">Información sobre seguridad</a></li>
+                    <li><a href="#">Informes de fallo</a></li>
+                    <li><a href="#">Listas de correo</a></li>
+                    <li><a href="#">Archivos de listas de correo</a></li>
+                    <li><a href="#">Migraciones/Arquitecturas</a></li>
+                </ul>
+            </div>
+        </footer>
+
     </div>
 
 </body>

@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <script src="https://kit.fontawesome.com/89d188d968.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Contribuir</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -29,37 +29,41 @@
 
         <!-- Form -->
 
-        <form class="form">
-            <div class="form-left">
-                <h1>Contribuir</h1>
-                <p>
-                    El Proyecto Debian está formado por voluntarios, y nuestros productos los desarrollan por entero
-                    voluntarios. Generalmente buscamos nuevos contribuidores que tengan conocimientos técnicos e interés
-                    en el software libre, y algo de tiempo libre.
-                </p>
-
-                <p>
-                    Para contribuir activamente en el proyecto, se necesita una cuenta. Puede solicitar su registro de
-                    contribuidor en el formulario adyacente.
-                </p>
-                <p>
-                    <span>(Luego nos comunicaremos con usted para completar el registro)</span>
-                </p>
-            </div>
+        <form class="form contact">
             <div class="form-right">
+                <label for="nombre">
+                    Nombre completo
+                </label>
+                <input class="form-input-text" id="nombre" type="text" placeholder="Nombre" required>
 
                 <label for="email">
                     Correo electrónico
                 </label>
-                <input class="form-input-text" id="email" type="email" placeholder="Email">
+                <input class="form-input-text" id="email" type="email" placeholder="Email" required>
 
-                <label for="pass">
-                    Contraseña
+                <label for="mensaje">
+                    Mensaje
                 </label>
-                <input class="form-input-text" id="pass" type="password" placeholder="Contraseña">
+                <textarea class="form-input-text" id="mensaje" cols="30" rows="10"></textarea>
+
                 <div class="form-buttons">
-                    <input class="form-enviar" type="submit" value="Entrar">
-                    <a class="form-link" href="./contribute.html">¿No tiene cuenta?</a>
+                    <input class="form-enviar" type="submit" value="Enviar">
+                </div>
+                <div class="form-redes">
+                    <p>Contacto por redes sociales:</p>
+
+                    <a class="social-icons" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="social-icons" href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="social-icons" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="social-icons" href="#">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
                 </div>
             </div>
         </form>
