@@ -324,7 +324,7 @@ body {
   font-size: 1.2em;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 950px) {
   .about {
     width: 80vw;
   }
@@ -373,7 +373,18 @@ body {
 }
 
 .footer-waves {
-  width: 100%;
+  width: 101vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: -1px;
+}
+
+@media only screen and (max-width: 1257px) {
+  .footer-waves {
+    position: inherit;
+  }
 }
 
 .footer-container {
@@ -387,7 +398,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--accent);
-  width: 100%;
+  width: 100vw;
   font-size: 12px;
   padding: 10px;
 }
@@ -425,7 +436,7 @@ body {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
   .footer-container a {
     display: none;
   }
